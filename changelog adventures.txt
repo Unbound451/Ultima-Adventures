@@ -1,0 +1,715 @@
+
+Changes to the original Odyssey:
+- Revised map, with roads, new cities, new castles, places to build, homes to buy, champ spawns, too much to list
+- An animal borker that buys ANY tamable in the world, with some special rewards added
+- Animal levelling and animal breeding! Train your favorite pet type through multiple generations to increase its abilities to the max!
+- Killable town guards! No insta-teleport kills. these blues heal using potions and bandages and act like a high end mob.. you're a thief? a necro? you can sneak around the guards or just brute force your way into a city now.
+- more customisable options in the myserversettings (totla skillcap, total statcap, item decay)
+- customized skillgain system - reduce the amount of time you spend in a skill's low end zone (0-70) while making later gains much harder (80+)
+- taming now has passive gains! Gain taming WHILE you tame, not just at success/failure
+- fully customizable conversation townspersons (currently need more populating)
+- full conversational vendors and npcs. as them who they are and where you are and what certain service are
+- Did i mention champion spawns? with a sprinkling of custom blue npcs to help out
+- No item decay, no housing limit (this is meant to be a solo server - or server played with close friends so why limit?)
+-Savings system offering interest for funds in the bank (to allow for riskier investments later..)
+-The Ether is now prey to a curse affecting travelling spells.. small chance of players being negatively affected when using gate/recall/sacred journey, especially between worlds.
+- new animal sanctuary added where you can collect tamables from all over the lands
+- full standalone lottery - visit lady luck in the tavern or type [lottery ingame.
+
+
+Going to be keeping a record of items changed since MAy 08 release.
+
+May 09 2020
+
+- The Ether has been corrupted!  Recalling / sacred journey and other travel spells now have a chance of weakening your chracter.  Recall/sacred journey to another world/facet has a 15% chance of weakening your character, while using gate travel lowers this to 7%.  Travel within a world/facet also has a chance of weakening your character, but at 4% (2% for gate travel).  Permanent moongates do not have this penalty, as they are stable, so ensure you are using moongates to travel to another world/facet.
+- Added a new animal sanctuary in Lodoria - a place where you can bring (and release) pets that you tame from all over the world.  A place for you to collect and show off tamables!
+
+May 12
+- fixed tweaks with reds and blues (talking to hidden players, etc)
+- made it so you could rename your pets to anyhting you want (its your server after all, why would the game want to limit that?)
+- added staff runebook which populates all locations in the worlds (thanks GarthAvan!).  [add one today!
+
+May 14
+- Server is up!
+- made some changes to randomencounters, too many healing dragons spawning
+- added townhomes in the inn in the public tavern which can be rented out!  great for new players.
+- added new housing in sarth and south of britain - they are townhomes so you can rent them
+- fixed bugs with the hitching post, should work correctly now.  test it out in britain!
+- added new hitching post to animal trainers
+- changed AFK command so it no longer allows for your thirst and hunger to go down.  [afk as long as you want now!  (Thanks Gadget!)
+- made changes to buildworld command (thanks Gadget!)
+- (gamemaster) added a new [hue command!  
+- added trash barrel near britain bank.  No item decay means we have to be responsible with what we leave on ground
+- added macro area to britain bank area - this is a safe place for a sacred activity, please don't bug people there.
+
+May 16
+- added ingot stones in the dread isles for those who don't like to mine
+- added offline study books!  These books allow you character to continue working a skill eve when offline.  Note that macroing is still VERY MUCH quicker than using this method.  books that max out at 75 skill can be bought at sarth library, books that max out at 100 can be found as rare drops in dungeon chests, and books that max out at 120 can be found in treasure maps chests!
+
+May 18
+- changed prices of studybooks, as well as drop rate and how gains were calculated.  gains were too easy how it was previously (these are meant to be hard to gain with)
+- added pack grenades!  what are they?  you'll soon find out!
+- added cussing for townspersons - they will now retort with ancient swears!  I will be adding more to these guys as time goes by
+- fixed crash issues and general debug of scripts (thanks Gadget)
+- added entrances for the common bank and common tavern in sarth bank/tavern... look for the doors on the walls.
+
+May 20
+- fixed crash ssues (thanks Gadget!)
+- reds now have a chance to drop large amounts of gold, and a special rare armor set called the phoenix armor
+- studybooks now have a 5% chance to disentigrate after use (so they don't last forever)
+- reds will now heal/res a player that is criminal or has over 5 kills 
+
+May 21
+- Major upgrade to the way blues and reds move, they move like players now when in combat! Warning, you can be chased down by a mounted red.
+- did a balancing sweep of reds/blues to make them less invulnerable.  they are still hard, but can die now.
+- blueguards will now only attack negative karma of -7500 or less (instead of -5000)
+- red and blues will not carry less bandages, meaning you can wear them down quicker
+- added some map features to sosaria
+- fixed the pit - there were too many nimated lava tiles, that slowed down the client... cut that back considerably and now the area is smooth (and looks better)
+- Player Vendors can now be placed anywhere!  Place them along roads or even in a city.
+- added vendors to the red city the pit, and doors to the common inns and bank for reds.  no fighting in the inn or bank 
+- minor map changes, one new "hill" in sosaria
+
+May 22
+- Improvements to the Henchment system - you can now command them to "run", "walk" or "speed"
+- New improved archer2AI added - will be tested (archer mobiles now try and stay away from the person they are attacking)  not added to any mobiles yet as still testing.
+
+May 25
+- Improvements to AI thanks to Gadget!  Blues and reds can now use necromancy, bushido, etc.  We have integratedOmniAI to the game.
+- fixed bugs and other issues.
+- tweaked offline skillbooks and removed some that didn't apply (spellweaving, imbuing)
+- there weren't enough reasons to go in the jungles in sosaria... none at all actually.. so i added a rare tamable - the white panther.  has a rare chance to appear.  if you see regular panthers kill them to see if a rare white panther spawns in large jungle area (near Widow's keep, west of sarth)
+- the animals that spawn are pretty useless and you just ignore them, right?  like a bear or a dog.... well, now every animal will have a chance to spawn as a "greater" version of the original animal.  these animals will be tougher, and sell for more when tamed.  They will also provide twice the resources, making resource collecting more challenging.
+- added tons of content in the background - will put in the world as time permits (items, systems, quests)
+
+May 26
+- more "greater" animals entered in the spawn system, and they give twice the amount of resources.
+- number of followers is now intel-based.  each 25 of int will get you more followers.  Also, vet+taming+lore+herding skills (all together) will get you more followers.  Max followers is 10 (at 120xvet/lore/taming/herding and 150 int).  I aimed for an average player to have 3-5 followers.
+- fixed a few balancing issues in the pit.  Some players were taking advantage of the prisoner spawning there... also bloodsuck can no longer be lured out of the pit area.
+
+May 28
+- added rotating merchant stalls in sarth plazza... these cool addons change every day and have different vendors everyday, so check them out - a one stop shop of sorts!
+- tweaked how the number of followers is calculated.  now, players will have their base followers set by int (6 max at 150 int) then have a bonus for herding skill and a bonus for taming/lore/vet.
+- tweaked how pet experience is calculated.  now a chicken can be trained and a dragon can be trained and experience needed scales with the creature.
+- MAJOR changes to how playervendors work... now they take into account attribute intensities!  So if you have a sword with 50% max damage increase ,it will sell for more than a sword with 10% DMG incr.  its possible to sell really high end items now for 30-70k on your playervendor.  Thanks Gadget!
+
+June 1
+- updated sosaria map to the latest version of the odyssey maps... all changes ported (that i could find)
+- killing a guard will now give you a kill
+- killing a red:  you can now carve up the corpse and drag the head on a guard for a gold/karma reward!  
+- added bounties given by guards for ALL human enemies... carve them up and drop a head on a guard
+- Updated spawns to match Odyssey - new map changes.
+- fixed issue where a red would discord a player
+- tweaked the difficulty of blues and reds somewhat - they should hit harder, but die easier
+- the Town Herald might gossip about your lottery purchases now and other acts that are specific to this server!
+
+June 3
+- reduced red spawns
+- Gadget fixed issue with reds who are bards
+- Added:  The wench!  this lady of pleasure will make you feel better, and can also be used to change your stats!!  can be found near most inns in sosaria
+- fixed store inventories to match odyssey.
+
+June 6
+- added weather!  it can rain/snow in odyssey again!  Thanks Gadget
+- Tweaked the amount of bandages red/blues have (lower) and increased bandage timer a bit for all.  
+- Added Hiding Powerscroll (was missing)
+- fixed numerous crashes and bugs which were plaguing us
+- changed squire control slots to 3 instead of 5
+
+June 9
+- updated to latest odyssey version, you can now become a librarian snooping into dungeon bookshelves using a monocle! rewards are very varied - more content thanks to Djeryv in Odyssey!
+- While we're at it.. added the original OSI library books to the game.  Look out for them in dungeon loot
+- a number of fixes and updates to a few systems
+- blueguards will now have the same cost as healers for resurrection services
+- you can now buy mannequins from tailor vendors!  Use them to display your cool armor and suits
+- added 15 new custom artefacts to the loot tables - more content for all to collect.
+- tweaks to henchmen.. first off they were healing 100% of their damage too often.. so we added a timer so they can only heal once every 5 seconds now, also, theyr stats/skills were based off a function of the player's stats and skills/skillcap.  because we have no skillcap, they were SUPER strong by default for almost everyone.  this has been tweaked - henchmen now spawn as a function of the player's stats, and will scale accordingly.  a 250 stat player will get the henchmen as 100% capacity.
+
+June 11
+- Mages now sell a special item: Linked Gates!!  These two gates will allow you to move freely (without penalty) between each other, but are only effective within a facet/world.  They are sold at mage vendors.
+- All Guild vendors now sell MUCH higher quantities of goods... ingots, cloth, regs, you name it.  you need to be a memeber of that guild to buy from the guildmaster vendor... but it might be worth it!  Select items are also cheaper at the guildmaster.
+- reduced the gaining rate of focus/mediation by a factor of 4.  was way to fast before.
+- fixed issue where classicuo would show a notile for a brazier that was not lit.
+- persons who are over 90% in hunger and thirst will receive a 10% well fed bonus to skill gain chances
+- tamables who are trained over level 25 will now have a chance to lower their control slot rquirement by 1 control slot (as long as it is above 2), and all tamables who reach level 50 will loose a control slot requirement.  Training and breeding a tamable to level 50 is very difficult, however if someone spends this much time with a tamable they will find that controlling them is much easier.
+- introduced monster nests, these items spawn enemies until they are destroyed- will start populating them around the lands and add a different mechanic to the way dungeons work.
+- skillgain was a bit too easy, so tweaked the skill gain factor for a few skills to adjust the rate of gain.
+
+June 14
+- thanks to some amazing constructive and positive feedback given by someone in servuo, we have now made it so any style of play will have unlimited skillcap.  Thanks for bringing that to our attention!  
+- Casino is now open!  Look for the door from the Inn - we will be adding games as time progresses
+- sarth library now has usable bookshelves to store books in!  IT's a great place for us to collect all the books int he game and create a public library
+- The animal broker can now appraise a pet's value and purchase pets based on a complex calculation that takes into account a pet's maxdamage, resistances, stats, hits, tamingskill required and control slots required.  youc an use this to compare two of the same types of pets against each other. 
+- Corpses will now no longer have weight limits (dump you crap in them when in a dungeon please!) 
+- tweaked reds to make them more challenging (again) - blues as well 
+- revised widdow's keep to make it more challenging... zombies are now more dangerous.
+- zombies can now drop a special unique armor set
+- Added a compeltely new revised Monster Gauntlet in Ambrosia!  Has menus now, allows you to pick which spawn you want, and had some special rewards if you're locky.  It also keeps a tally of all persons who complete the gauntler (score and time to complete).  Also, you can't die playing the gauntlet - you just teleport out, so try it!
+- added studybooks and original OSI books to the librarian searches.
+- completely revamped librarian drop rates.  as it was before, a powerscroll had the same chance of being found as a magery spellbook :/  now, rewards have different difficulties.
+- changes were made to the way the AFK command works!  Instead of the bland *is AFK[TIME]* message you see now, you will now see a randomized sentence!  Try it!  Also, gaining a skill will now remove the AFK status.  If youre macroing, the player is doing an action :)
+- Changes were made to begging!  You can now received up to 600gp a shot from begging, and the amount is determined by you LACK OF karma/fame... the closer you are to 0 fame/karma the more likely you are to get 600gp.  ALSO.. you can now beg other players!! and if they have gold, they will give you some on a successful check! 
+- Minotaur labyrinth spawns now have a special effect to counteract persons who use the maze hedges in order never to get hit a single time by any of the monsters, minotaurs have a chance of dropping item bless deeds, and slayer stones.  
+- The virus at widow's keep may now go airborne (wear a mask!), carving a red's body should now no longer cause karma loss
+- changed how tamables follow you... they used to stop when out of sight range and you had to double back and get them... this should now be dramatically improved.
+- Trash barrels will now "talk trash" when you put an item in them!  Try it out! They will say randomized insults to brighten up your day.
+- fixed an issue where dynamicbooks spawns empty
+- changed how stealth attacks damage was calculated... in odyssey they can do up to 4x damage at gm hiding and stealth.  at 60 damage (with damage increase) this can result in 240hp hits, on top of weapon abilities and spells like enemy of one in chiv.  reduced this to a random range now between 133% and 240% damage.
+- fixed squirecare book to work correctly, and uses image gump too (thanks gadget)
+- frst implementation of Morph Armor sets!  Morph armor are VERY RARE drops from boss type monsters that will morph you into that monster.  Each set will be geared towards a particular playstyle (melee,magery, stealth) and will have a special ability usable once every 24 hours.  In this edit, the first morph armor is the minotaur morph armor.  Obtainable from minotaurs in the cracked labyrinth.  Note that this is very powerful armor, and very rare - all 7 pieces are required for the morph effect.
+
+June 24
+- fixed a crash related to the recent change in OnDamage.
+- fixed an issue that made the [go command stop working and apparently the [sr command start crashing.
+- you can now recall out of a dungeon, but you can no longer recall in to a dungeon.  This is to ensure people need to explore before they get to the big boss, instead of simply recalling in and farming the boss. 
+- Odyssey was a game meant to be played solo, so Djeryv didn't put any caps on Hp/Stam/Dex regen rates.  As such, it was possible to have a char that had 120+ HP regen.  We have implemented hardcaps (confirgurable in myserversettings) for these regen rates and they are currently at 35, as well as spelldamage increase (maxed to 100%).  these had the possiblity of making players overly powerful and invincible.
+- Implementation of the Doom Gauntlet!  This is meant to be ultra-high end content as the mobs there are much harder than in standard OSI servers (because of our no skillcap). I would recommend players really be careful when trying to enter doom and trying the gauntlet - the dark father has over 30,000 HP.  this new dungeon will liekly need balancing - but all functional parts work properly.  The doom entrance can be accessed by asking a an NPC in sarth's abbey about it... 
+- Aether Globe:  The dark father has come and made his mark on the lands of UA!  Travel by recall/ dispellable moongate has a chance of incurring a the dark father's curse in UA.  The dark father is corrupting the AEther slowly but surely, and players need to kill the evil that spreads through the lands in order to counter-act his evil corruption.  The Aether globe (there is one in the common bank) indicates the danger level and the corruption of the Aether by the dark father.  Killing the dark father completely resets the corruption, and killing monsters with negative karma also reduces the curse based on their karma.
+- Dark Father's morph armor now has a chance og dropping in Doom!  various mobs have various odds of having one of these very rare drops.  The dark father morph armor will give the wearer the abiltiy to be the lord of death, with a very special (non-aso attribute) feature which i won't write here in order to keep the mystery.
+- Conversion of the Underworld!  our new Ilshenar map is now live, giving us ample room for new content (stygian dragon anyone?) going down the line.  The entrances to odyssey dungeons and features are placeholders at this point, as we did not have enough time to go in and edit the maps to ensure they are seamless.  you will see floating mirrors, which are placeholders for now (if anyone wants to work on this we would welcome it!).  Note that we have kept only 6 dungeon dwellings.  considering our server has under 10 active players, we didn't see the point of having so many available, and the space will be used for new content.
+- imported the mounts appearing as they should from the latest odyssey version, thanks Djeryv!  great change.
+
+June 30
+- implemented a dynamic curse calculation that takes into account 3 day moving averages and the rate by which the curse went up or down. In other words, if NO ONE kills a monster for a few days, the rate of change will even to 0, and if the curst goes up by too much, the curse level might actually decrease to help the players out. The system is much more dynamic now - if players rock the house and kill tons of enemies, the rate of change of curse will increase to adapt to the players' activities.
+- implemented an investment algorythm that takes into account the dark father's curse! If times are good and the curse is low, returns should be stable and good (the economy is doing well), but if times are dangerous and the curse is high, you might lose on your investment. Also, i made it so the higher returns are earned (if you are lucky) during times of high risk.
+- Also, as an added bonus, ive made it so negative karma characters have a MUCH LOWER chance of suffering the dark father's curse.  HE is evil after all and so is a negative karma character.  to make things fun, i also made it so killing a POSITIVE KARMA mob HELPS the dark father's curse increase!  Now, negative karma characters can make things harder for the good guys by killing positive karma mobs (purple mobs, etc)
+- I found that with 80+ remove trap i would never trigger a single hidden trap.  This is because the hidden trap avoidance is based on a number of different elements (like stats), but the remove trap check is a skillcheck with 0-125 min/max range.  A character with 80+ removetrap would rarely fail this.  So, ive randomized the minimum skill trap difficulty level to make things more fun.  A player with gm remove trap might still get stung here and there, albeit rarely.
+- with this in mind, hiddentraps will now emit a faint light to make them "spottable".  try and find them in dungeons, and use remove trap to deactivate them.
+- Complete rework of the curse calculation and investment calculation, tested and works as intended now (10+ hours went into this!)
+
+July 04
+- tied in the curse to the mob's HP: the higher the evil in the lands, the higher the HP of the monsters that spawn (global)
+- tied in the curse to the mob's gold drop rates:  the higher the evil in the lands, the higher the gold drop rate of the mobs that spawn (harder enemies, more evil, more gold)
+- enhanced necromage AI which was added 
+- added paladin AI (chivalry)
+- added 18 new SA artefacts to the loot tables, and simplfied how artefacts are excluded from the name generator
+- You can now claim a bod whenever you want, there is no 6 hour timer (it was ridiculous to wait that long for a bod and would take weeks to get a decent one).
+- New high end smith bod rewards:  AOS enhancement deeds - add attributes to any weapon or armor.  One handed deed, make any two handed weapon one handed
+- added a new quest in the underworld (bill and ted are lost in hell)
+
+July 14
+- Evil bards will now ... be bards!  they can peace/provoke/discord.  AI change
+- Doom Lever puzzle added (not yet tested)
+- The new dungeon "Widow's Lament" is now live.  its meant to be harder than doom, so be warned.  New quest line, as well as an innovative mechanic to get through the dungeon.  I won't put spoilers here, but it will change the way you play throughout the dungeon.
+- the travel curse will now scale with the evil level.  e.g. at max evil the players will loose 1% of at most 50% of their skills.   at low evil players might only lose 0.1% of few skills.  alternatively, at low evil you might only lose 0.1-0.2 of 2-3 skills
+- death penalty will be linked to the curse, which means you won't simply loose 1% or 2% of skills, but rather 0-1% of skills with healer and THREE times that when auto rezing.  so if the death penalty stands at 0.5, auto rezing will be 1.5.  at worse (the max), healer is 1.0 and auto is 3.0 - at best, healer is 0.1 and auto is 0.3
+- Stealing pedestals are now much harder, but have greater gold reward
+- tweaked luck calculation to add greater randomness (real luck!) 
+- Just added the gravedigger NPC - a summonable npc that will fetch your corpse for you - useful when you died deep in a dungeon and don't want to bother going back... will cost you 30k however so its very pricey!
+- fresh off the press, taming bulk orders!  I'm still in process of adding the tamables (there are what seems like hundreds), but the rewards for completing the BODS will be both gold and a chance to get very special items : pet dyes, pet control slots, pet trainers... and the most impressive of all: a pet paragon deed.
+- added a new command:  type [changecharacter from your home or in an inn to quickly change characters
+- did multiple tweaks to taming bods, including tying in the price the animal broker is giving for tames on the doomcurse.  in good times prices are lower, in difficult times prices are higher
+- PetEasing deed now a reward for taming bods... this (should) lower a tame's minimum taming skill required by 10, meaning lower skilled tamers (or even non-tamers if many are applied) will be able to control the pet
+- Changed so anger on tame now takes into account the player and animals skills was 95% before regardless if the creature was easy compared to your taming skill or not
+- Changed taming messages (they were boring) to add more diversity
+- fixed champ spawn body types for some of the mobiles
+- major changes to taming bods for balance, namely odds for rewards and amounts that need to be tamed.
+
+July 21
+- Hopefully changed it so tamed animals won't attack their owners with breath area attack (unless the tame is directly attacking the owner)
+- changed it so tamed pets won't passively reveal their owners (unless they are attacking the owner)
+- big revamp of the curse today - looks like too much credit was given when killing high end enemies.  I reduced the rate at which the doomcurse can be decreased (now that our players are more powerful and killing more than skeletons).  To balance this, i reduced the rate at which the curse increases.  Also, did another pass of the math to ensure things are working as intended
+- fixed crash with the serpent pillars
+- players dying will now affect the curse - a good player dying will raise the curse (the evil has been able to defeat the forces of good!)
+- the fame/karma value of ALL mobs was a static fixed value just arbitrarily placed in every mobile's script.  ive changed it so its dynamic now, based on the mobile's attributes.  tested skaleton/lichclord/balron/drake/primevaldragon and the fame/karma values seem to work very well.  for example, lichlords were -15k karama before.. they are -4k now (they are easy after all)... now the values make much more sense.
+- Added what i call spammervendors - npc's that sell unusual items (some buy them) and deal in unusual items.  they are meant to simulate the spammers that used to sit in brit bank selling/buying wares.
+- I've changed the calculations for pet levelling to make it easier to level them.  it will still be a challenge but the way it was before made it nearly impossible to bring a pet to breeding level.  e.g. a dragon would have to kill 600 other dragons just to get from level 9 to level 10.  Reduced.
+- Just implemented Colored equipment names (Thanks @AgetianMaywind ).  @garthavan (Harrington) found this and weve added it to the server.  now equipment names will have a hue indicated (very roughly) how many attributes and the quality of the item.  note that this system isn't perfect, but should help to sort out the crap from the quality when in a dungeon. https://www.servuo.com/archive/colored-equipment-names.404/
+- BReath damage maximum has been increased, so beware!
+- Stealing pedestals have been made sugnificantly harder now - damage from flametraps and failing to steal the chests have gone up ksignificantly.
+- changed the luck calculation to make getting artifacts a little harder... was common for someone to get 2-3 per dungeon run before...
+
+August 1st
+- Adding Life Essense and Soul Essenses!  lower karma mobs will have higher chance of dropping life essense (that heal you), and higher karma mobs will have higher chance of dropping soul essense.  soul essense allows you to "attempt" a skillgain, like you were trying to use a skill.  so it won't always mean a gain
+but, you could gain blacksmith skill from walking on a soul orb for example.  This adds a bit of fun to the game
+- guildmasters should now accept checks for guild fees
+- Spirit speak is now a way for an evil character to offer the soul of the dead to their evil lord.  Using spirit speak will now increase the evil by a small amount
+it makes the evil stronger
+- Introducing the new public crafting space.  Anyone who is the member of a crafting guild can enter this area.  Its meant to give crafters a place to hang out that is "common".
+- introducing the new evil (negative karma) class:  the Cursed.  these mobiles are a revamped version of the blues/reds you all see.  they are not ingame just yet, but will begin appearing soon.  if you see one and you have positive karma, i would run
+- map update!  Sarth now has walls and is a proper "city"  ive added a few hidden access holes in the walls for those wanting to sneak in
+- randomized the amount o ftime it takes to get a new customer for shoppes from 15 mins to 1 hour
+- in an effort to promote player crafters, NPC repair has been creased to 100gp per durability.  crafters can create repair deeds which they can sell on their vendors, which would be dramatically cheaper
+- We have switched and installed OneTime from servuo.  Its a central timer that can be hooked on to by any script, its a really ingenious idea.  before, each script needed its own timer.  Now, there is only one timer running for all the scripts, thereby reducing server load and simplifying everything.  upgraded to latest version
+
+August 22
+- Added two new abilities for the shadow knight in doom - bullrush and echo strike these should prove challenging
+- Added the Widow's Morphing Armor!  Now dropped from the Widow under the keep.  This very rare armor morphs you into the widow and grants you powers over the dead - when using it, anyhting you kill will rise again and help you destroy your foes.
+- we apparently have our very first paragon pet on the server (much earlier than i had expected!!).  as such, paragons used to be 2x control slots (from 3 to 6).  since that might be tricky to play with, ive made it so paragon pets are controlslots + 2 instead of *2
+- using an npc to repair your items will now cost more and will degrade the max HP of the item by 7-10 points to help encourage using player smiths
+- Investment bags are now of two sorts:  (good) and (evil) good benefits if curse goes down, evil benefits if curse goes up.  Evil can now also invest and bet on the system
+- New client to download, august 7th (uploading now).  includes new anims and new art as well
+- adding dynamic loot generation based on the dynamic fame/karma calculation.  all loot will now be calculated based on the creature's difficulty instead of being arbitrarily taken from whatever the person put in the script
+- Architect now sells display cases, thanks garth
+- Changed Login screen
+- added new art so that brazies that are "off" will no longer show as nodraw tiles.
+-  i added a chance that any mobs that spawns has a chance to be "cursed", meaning it was sent to kill you directly by the evil lord.  these mobs will be regular mobs, with enhanced stats and quick speed.  the odds of them appearing is directly linked to the evil curse level.  more curse, more odds of them appearing in the lands.  the evil lord (who still needs a name BTW) can now directly affect all the lands in the server
+- taming contract book now has a different font color (readable now) and should hold more contracts too
+- now that we have frenzied ostards back, in order to make them interesting i've dramatically widened the range of possible stats/resistances.  its now completely random how strong your ostard is, could be super weak, or a real badass killing machine.  pray to the rng gods!
+- fixed a few issues with dynamic loot generation, completely redid the lootpack tables - there will be less items now but higher chance of having good intensities.  the idea is the reduce the amount of crap we have to sift through when we adventure.  if you get an item now, it has a higher chance of being better than before.  also, there were many inconsistencies with the loot tables (instruments spawning with 5 attributes at a max of 100 intensity for a skeleton, but with only 10% max intensity for a primeval dragon)
+- Added certain items back into carpentry crafting which were removed (crates, tables, etc).
+- Fixed error in the code where bowcraft with new types of wood was not working
+- fixed error in the code where wood oils were not being applied properly
+- fixed issue where certain relics were spawning as items instead of deeds (nodraw error)
+-  im revamping stealing to make it more relevant.  When a stealthed player targets a creature with stealing, he will have a chance to receive random loot, including (rarely) artefacts and the like.  It will be possible now to stealth into dungeons and steal from creatures.  don't get caught!  item value will be dependant on creature's fame.  This now makes a pure 100% thief doable, without having to kill anything.
+- added a new system where players stay in the world when they logout - (invulnerable).  This will help make the server look a bit more populated - don't worry your toon will be completely safe while you are logged out, but others will be able to see you, and you will be able to see others
+- Decorated lamut with the new MAssive (and beautiful trees) taken from the outlands client.  They are a big improvement over the stock trees.
+- Added some sayings for guards when someone is stealthing nearby ("I hear something....")
+- Fixed an issue where admins were placing deeds and crashing server (should be fine now to do so)
+- fixed an issue where townspersons were healing mobs and creatures and turning grey
+- Added a cooldown for snooping skill -where someone could just snoop the same container from 0 - gm in an hour or two before, now each failure has a 10% chance of requiring a cooldown.  the mob cna't be snooped again for about on hour.
+- Fixed a bug with beehives using stacks of potions
+- boosted the reward for stealing contracts from the thieves guild... 1k to go to the last level of a dungeon far away doesn't seem like a fair reward. its now based on the thieve's skill too, where before it was only based on the map of the quest higher skill, more reward from those.  Also added a feature where the more consecutive thief missions you do, the higher the reward will go - an additional incentive to continue doing them.
+- hopefully fixed the studybook bug where it kept giving you study gains even when logout time was low.
+- ive made it so hidden traps are visible now via a faint glow.  those will full lights or alternative lights won't see them, but those who like to play with a bit more atmosphere will.  this gives players an opportunity to detect them and perhaps even untrap them.  Also, the traps' damage were fixed before.  Now, ive made it so the damage is based on the curse level and the players health.  meaning lower level players wont be one hit killed and the damage should scale to whoever the player is
+- removed a AI glitch where mages would get "stuck" on a corner when trying to keep distance to the player
+- darkfather was a long and boring grind before, with 30k hits.  he has now been changed to a BaseCursed (my new AI algo), and hits lowered to 7500.  keep in mind that he is MUCH harder than before now, even with less hits.
+- have an initial implementation for traps:  at 4 tiles you have a chance to hear a sound, at 2 tiles, on successful check, the trap might start emitting a low light so it pays to walk slowly in the dungeons... listen for subtle sounds tha twould indicate a trap, like a tick.  This makes dungeoneering much more dynamic and fun.
+- Major changes to death system - ankhs anywhere now will NOT require gold, but will drain you from 20% of your fame/karma.  ankhs are so few and far between, but it might be worth seeking them out. death penalty has also been adjusted (will put more weight on skills/stats instead of karma/fame)
+- The [rares] spammer vendor now sells random scrolls of transcendence and alacrity
+- Changed item damage to make items need repair from 4% to 6%
+- We now have children in game!  I'll be spawning them randomly in cities.  they are annoying - good luck!
+- player's bodies/bones are now fully movable and will not decay, marking your death permanently in the world.
+
+Sept 30
+- Odyssey had evilkarmaoffset method which ended up raising karma loss for evil players by 4x.  unsure why ... so i removed this to be stock per runuo2.6
+- There was a bug where someone caught stealing from a coffer would just be revealed (and the vendors wouldn't try to attack at all and just stand there until the thief stole the coffer).  this has hopefully been fixed with an adjustment to vendorAI
+- Coffers and stealing:  when a thief got caught before in trying to steal a coffer, nothing happened, the vendors just stood there.  Now, the vendors will attack the thief, and call in any guards nearby to help too.  had to change basevendor and vendorAI to add the required subroutines
+- fixed the issue where necro forms didn't transform the player, also changed the bodytypes to the original bodytypes
+- ive implemented a new mechanic by which dungeon doors will be randomly locked/unlocked every 4 hours or so.  the system works like this:  80% of all doors will be unlocked per normal.  20% of the doors will be locked.  Of those, 65% will be easier locks, and 35% will be harder locks.  Skeleton keys can be used for easier locks, master skeleton keys can be used for harder locks.  magic unlock has a chance to unlock easier locks only.  the doors will randomly reset/change every 4 hours
+- the death penalty (not the travel penalty) will now scale based on your karma and the curse level.  also, the lower the curse, the higher the penalty for evil players, and the higher the penalty, the greater the penalty for good players.
+- you will start seeing some mobs appear as blessed or cursed.  these are much harder versions of the mob, and appear as a result of the curse level.  if times are good, blessed mobs will appear in the evil lands of darkmoor, and if times are bad, cursed mobs will appear in the lands of sosaria/lodoria
+players an now influence how the opposite group experiences the game (good players can make the life of evil players harder and vice versa) also, since all loot is dynamically generated, fame/loot will be greater for those mobs
+- Another thematic change:  Stam/HP/Hit regen will now be affected by hunger and thirst.  the hungrier/thirsty you are, the slower your regen will go
+- fisherman vendors will sell a movable trash chest for 5k each.
+- Added a new system whereby mobs are hidden from the player until in line of sight.  This stops players from seeing the entire dungeon or even what mobs are behind a closed door.  this is much more thematic when exploring dungeons.
+- Added a passive tracking skill check to reveal mobs even if they are in another room or behind a door.  Tracking is now useful again!  (next restart)
+- fixed a bug where archers could get more arrows than they used by picking up arrows dropped and having high lowerammocost
+- MAde a change to allow for multiple prison crystals to be held by players.  previous prisons won't go "poof" when you pick up a new one.
+- Since using LRC means you are conjuring regs out of thin air, its been decided that using LRC should also increase manacost for spells for every 1% of lrc, spell mana will increase 0.5%
+- In an attempt to revamp the existing mobs to make them more in line with players, ive upped the difficulty of balrons.  new players are not likely to be fighting them so i think the change is a good one. ill be revamping stock mobs as an ongoing thing to make the world more balanced.
+- From henceforth, the "evil curse" will be known as the "balance".  the balance can tip towards good or evil.  the globe in the bank indicates which side the balance is tipped towards, green is good, red is evil.  On next restart, ive added a cool new feature where you can now double click the globe in the bank to see by how much you've affected the balance.
+- increased weight able to be carried a little bit for players
+- Added with lanky's help, a new system that adds ambient sounds to the world.  It was pretty quiet before, with sounds only playing if there was a mob nearby.  now, a selection of sounds will play based on where you are.  hopefully this adds a bit more atmosphere to the game.
+- Travel penalty has now been changed:  it moves with the balance.  when the balance is towards good, GOOD PLAYERS CAN MORE FREELY TRAVEL, when the balance is towards evil, evil players can more freely travel.
+of course, if the balance is good, evil players will get heavily penalized.  if the balance is evil, good will get heavily penalized. to balance this out a bit, evil players will have access to corrupted moonstones, which can be sold from thief/necro vendors.
+- Darkmoor is live!  A land specifically crafted for you.  Darkmoor has recenlty been taken over by the hordes of the Accursed, but their hold on the land is weak, and the forces of good still have a strong hold on the surrounding lands.  Two new characters have been added to the world : a mysterious stranger has appeared in lamut, and an odd character appeared in Umbra.  See what they need and perhaps enter the land of Darkmoor
+- Change made so that killing anything with positive karma in Darkmoor does not give murder counts if you are evil.  Killing vendors, etc will still give counts if you are evil.
+- A note on the balance:  There are 3 ways to play the game - neutral, evil, good.  they are all karma based playstyles.  Someone who has high positive karma is a good player, and can affect the balance, but his penalties also get affected by the balance too.  A neutral character (with near 0 karma) will have less affect on the balance, but also be less affected by the penalties.  Its possible therefore to play a neutral character and "opt out" of the balance system.  However, if you choose to play as good/evil, you can tip the balance your way and affect the battle between good or evil.  a player with 15k karma willl have a 150% multiplier on every kill that person does on the balance.  a player with 0 karma will have 0% affect if he kills something
+- Introducing the champions of the balance!  The player with the top effect on the balance (either good or evil) will NO LONGER be affected by skill loss on death/travel (this does not apply to the insta-res option).  They will also be able to resurrect without paying the resurrect fee in gold.  The balance champion (for good or evil) will be chosen daily.in order to ensure that someone cannot become champion and stop playing, balance effect points will now decay by 10% per day.  meaning if someone becomes champion and stops playing, he has a higher chance of being overtaken by another player.
+- squire corpses will now take longer to decay
+- Changed the lootpack entries to increase the base intensities of items generated on mobs, but reduce the number of items generated.  intent is to have less junk to sort through, and higher chance of better items
+- Studybooks (offline) are now craftable using inscription skill 
+- Fixed an issue where guards in darkmoor were harming tames with positive karma
+- fixed and issue where ADMIN chars were granted champion status
+- New rucksacks were introduced - mining rucksacks and logging rucksacks that reduce the weight of items inside by 50%.  useful for any crafting types.  Craftable via tailoring only. 
+-  hitching posts work great, but some people would leave their pets on the posts for months.  In order to ensure there's a little bit more interaction, pets on posts will still lose loyalty, albeit at a slower pace.  A pet with 100 loyalty will last 666 hours on a post (27 days) before reaching 0 loyalty.  bonded pets with 0 loyalty shouldn't go wild
+- Changed skillgain to make it easier to gain after 80's.  this is to balance the skill loss on death - its now a tad easier to gain skill back after losing it.
+
+Nov 14
+- added restricted mode to the game: restricted mode players won't lose skill points or stats on death or travel.  BUT, fame/karma will be substantially higher on death/travel penalty, and gold cost for death will also be increased.
+this will be a difficulty option that will be set on chracter creation.  I'd like to note that it will be very difficult to gain game/karma in restricted mode that means easy mode players will be able to travel using recall/gate at will, and if hit by the penlaty, will only lose fame/karma, but won't be able to affect the good/evil balance.
+- increased skill learning speed for non restricted players, added non restricted players luck bonus, and a bonus to harvesting resources.
+- added tradesmen from odyssey latest
+- since there are many positive karma tamables in darkmoor, tamed pets with positive karma will now be Enslaved/Dominated instead of Tame/Bonded.  Will just add a bit of flavor to the game - you can now walk around with a dominated titan!  further, animal taming a positive karma pet will now incur a negative karma hit
+- Ethies will no longer use a slot
+- Changing the taming messages to be karma dependent.  a good player will see different random messages than an evil player
+- Children will no longer show (tamed) when following a player
+- Loyalty for pets will go down slower now and fixed bug where loyalty rating on the name of the pet wasn't updating properly
+- added a gate to the casino from the bank.  makes it easier to go gamble!
+- Mounted blues/Reds will now have a 1/300 chance to drop their ethy on death
+- Saw the harvestable drugs system in servuo and thought it would be a good addition to the server.  Added as of this morning, you can now plant/harvest PipeWeed!  Kits and seeds are sold by pipeweed merchants, who rarely spawn in wilderness, and more often in Lodoria and Darkmoor.
+- town guards will now be able to throw bola balls to dismount mounted criminals
+- the math for control chance was buggy.  i fixed it.  should be easier to control tamables at next restart
+- survived a DDOS attack on the server on Oct 10th.. ??
+- Lockpicks will now weight 0.1 stones
+- Adding a new system: TombStones.  Instead of just having bodies lie around, you will start seeing tombstones on player death appear on the ground, commemorating the glorious dispatch of the player. 
+- fixed wooden items art
+- Player backpacks will now be able to hold more than 550 stones
+- tinkers will now sell tinker tools 100% of the time
+- revamped some legacy artefacts that were ... unimpressive
+- Changed the animal brokers logic to factor in if the pet is a mount and if the pet can carry things for the player when calculating the pet's value
+- pets with backpacks will now get you more $$$, mounts too
+- I have been gradually changing the core systems of the game to be more dynamic - for example fame/karma/loot are not dependent on the script of the mobile, but rather on a complex algorythm when the pet is generated.  I will be incorporating taming difficulty to this dynamic algorythm.  pet taming difficulty will be dependent on the animal's AI, resistances, skills, poison/breath abilities, whether it is a mount or has a backpack and more factors
+-  live on the server, dynamic animal taming.  this system determines the minimum taming value needed for a creature based on a very complex diminishing returns algorithm.  Each tame will now have a different taming difficulty, so if you can't tame one drake, try another - you might be able to tame a weaker one!  Also, instead of the "you have no chance of taming this creature" message, you will now get feedback which will tell you how far you are to being able to tame the creature.  also, taming creatures in difficult dungeons will sometimes yield stronger tames - but they will be harder to tame!
+- made levelling pets much easier
+- Made it so vendors aren't on cocaine anymore, moving around super fast.  (Thanks Shin)  they are now easier to click on
+- made it so you can launch a boat and dock it using a docking lantern (from anywhere)
+- Added a system of linked gates in the isles of dread to make moving about easier.  many isles still need a boat to reach, but some moving is now possible without teleport/gate spells.
+- Added new clothes - these clothes will act as a robe (meaning you can have shirts/sash etc under them).  I felt there were too many robes in the game, so this will give people an alternative to wobe-wearing for the robe slot
+- reduced children spawn rate
+- you can now obtain forged letters!  You can place these in the world to make words, say anything you want.  are available from librarians for 250gp.  
+- updated lady luck - she now says what she does when a character approaches, and understands the "buy" command
+- Made the new random letters dyable (i hope?)
+- Thanks to @drobcek pointing out that a red pk could be balance champion for good, i've made some wide revisions to the balance champion.  also, neg. karma players would be helping the balance whenever they killed anything in a regular dungeon.  So ive changed the system to the following:  Any effect tot he balance will be a function of your karma.  In you have 0 karma your kill will have 0 effect on the balance.  If you have 15k or -15k karma, you will have a 120% effect on the karma.  additionally, any kills form a neg. karma player will go towards evil based on his negative karma (a player with -15k karma will have 120% of the kill go towards evil)  also, being a PK now increases your negative effect on the balance, PKs will get a bonus towards their effect on the balance, meaning it will be easier for a PK to gain champion of evil status
+- Dungeon doors locking will now be scaled based on the difficulty of the dungeon!
+- Added some code to basecreature to try and stop purple names from attacking the pets of positive karma players
+- Weight of potions reduced to 0.65 from 1, bottles reduced from 1 to 0.45
+- increased lich form mana regen (it was pretty useless before). this form, with a familiar is now useful for magery/mana when training and macroing
+- added AI checks for darkmoor for pets.  vendors will now look at the pet's owner (not just the pet's karma)
+- Because our server is growing, the tasks running in the background are starting to take longer, and cause lag periodically.  I have consolidated these tasks and added broadcast messages when they occur to allow us to debug
+- Mining harvesters are in!  These are area control mining devices that let you mine ore while you're away.  some notes:  1. they run on copper, 2. they can be destroyed by another player (who will get all the resources mined, so remember to empty them often), when attacked, they spawn sentries, 3. there are 4 tiers, each tier will mine more and rarer ores
+- tombstones are now no longer droppable in corpses to get rid of them
+- Added 3 tiers of lumberjack harvesters.  Also, when the defences of a harvester have been breached, the looter will have full access to the resources within, but this will NOT destroy the harvester.  It will simply disable it, and the owner can come and fix it with a repair kit (the owner will also have a chance to move the device).  Also, owners of harvesters will get a substantial bonus in the yield of the harvesters if they have the associated skill (mining/lumberjacking)
+- Added 3 tiers of Hides harvesters - these devices grow organic matter and harvest the hides at regular interval.  Like all harvesters, they need to be placed on certain ground, can harvest multiple types of resources, and a bonus is given to owners with foresnic eval
+- ive removed the restriction for addons to only be placed in houses.  You can place any decoration you want, anywhere you want in the map now.  Want to place a table in the grass in the middle of the woods?  go ahead.  I want players to be able to customize the world how they see fit.
+- doom entrance relocated in the isle of islegen in lodoria
+- Tinker now selling low/mid tier mining/lumber/hide harvesters, as well as repair kits of anyone disables your machine
+- Rares spammer vendor now has a chance to sell TOP tier mining/lumber/hide harvesters.  As usual, his prices are quite high.  doing this as a temporary measure until they are added to crafting tables
+- JUST ADDED!  The spikes of the Balance!  These devices will influence and manipulate the balance for you, at a cost in silver.  When placed in a dungeon, they may also, once changed, resurrect you (and only you) but this will deplete their power.  A player can easily become, and keep, the title of champion with many of these running throughout the lands.  They are obtainable as a rare drop from enraged or righteous mobs that you've no doubt seen  but fore you may use them, you must choose which side of the balance you will fight for - creation or destruction, good or evil, light or darkness. you may want to visit this well known man to do so, and ask him of the balance.
+- fixed a bug where kills made by a negative tame mob would count towards evil.  the pet owner's karma will now be used to determine where the kill goes (evil or good)
+- Tweaked breeding a bit, now babies will start at a level between the baby's max level divided by 5 and same divided b y 2.  so a baby with 30 max level will start at a level between levels 6 and 15.  this.  they will also have a higher max level, based on the level of its parents  two parents at level 15 will yield a baby with a max level of 25, and a level between 5 and 12
+- Spirit speak now also costs 20 mana (instead of 10), but yields back up to 10 mana when used.  using SS on a body now gives you free mana
+- Changing so the time lord no longer attacked anyone (he will defend himself though)
+- Time Lord also gives a balance spike when someone pledges to good or evil
+- Hidden traps will no longer be ctrl-shiftable to disarm a hidden trap, simply target the ground where you think there is one.  the system will search a 1 tile radius, if a hidden trap is found, an attempt to disarm is made
+
+Jan 19
+- PvE gauntlet is now active near clues moongate. simply double click on the gauntlet master.  note:  you cannot die when participating, there is a running tally of scores for each type, and this is still mostly unbalanced (try and survive as long as you can)
+to see scores, say "scores"
+- fixed a few issues in the guantlet (thanks veryance for testing).  I also added a special commemorative plate armor set (plate of honor) to spawn on completion of the gauntlet (1/60 chance)
+- i always hated how all pets of a certain type were all pretty much more or less the same.  this forces players to use pets that they might not want to use, just because that's the pet that gives the most damage for their taming skill.  For example, I love the look of a drake, but i have to move to a dragon if i want something stronger.  I've therefore added an algorithm on animal spawn that has a (small) chance to randomize pet stats and damage.  this way, it would be possible (but rare) to find a pet drake that could take on a dragon.  Of course, this is only doable because of the dynamic taming skill algo that was added - pets with elite stats will be harder to tame.  So don't be surprised if you find a horse you can't tame at 50 taming, or a dragon you can't tame at 105 taming.  This will encourage players to go out and scout for the best of their favorite pet type
+- Also, will be adding gravediggers to most cities these npcs can fetch your corpses for you for a price.  you can also summon the gravedigger using the [gravedigger command, but for double the cost
+- Powerscroll vendors have had a price revamp
+- in order to prepare for upcoming changes, im tweaking it so only persons who have pledged with the time lord can become champions of the balance.  to pledge, ask him about the balance
+- I've had a lot of time to work on the pet-value algorithm with the dynamic fame/karma and pet taming skill changes.  i updated the prices of pets at the animal broker.  hopefully the value of the pets haven't changed much, but if they had and are out of whack, please let me know
+- Champions who die and travel so not suffer skill point loss, but will now suffer a 5% loss of balance influence for healer, and 15% of influence for insta resurrecting.
+- Crft vendor now sells bulk scrolls
+- fixed an issue with the max followers math (thanks for pointing this out @Qarinah !!!) now people with gm herding should get an extra controll slot
+- Soulbound system added!  
+- fixed issue where tames would still exist after soulbound died
+- mapmakers would decode maps for a base of 1k per map level, but becuse of the balance changes, the price was more like 350gp per level... ive upped this somewhat
+- Soulbound characters will now show "soulbound" on mouse hover, and show the date the character was created
+- increased rate of balance spikes spawning on enraged/righteous mobs
+- adding a balance champion item on the mouse hover over a player.  that way its easy to see if you or someone else is champion
+- Dynamic algos tweaked: Max taming skill required set at 120, increased Max possible fame/karma to 45k from 35k.  this is to accomodate the new elite creatures.  Taking down high end elite mobs will now reward greater fame/karma
+- poison strike was doing 180+ damage to mobs due to a tweak in odyssey.  lowered this 3x
+- assassin quests now have a 5% chance of givin gthe assassin a high end item or arty
+- Story records are going live!  click your character to mark an item which will be left in the world.  youc an tell your story using these records. choose a sound, choose the art you want, and tell your story.  No one will be able to edit or remove these.  this makes leaving stories in the world super easy.  Explain why you chose your spot for your house, explain what happened when you died next to a gravestone
+- fixed bug where npc bards would discor dyou, but would increase your stats, not decrease them.  reduced the effect to be 5-10% of stats. Reduced duration from 50 seconds to 20-30 second
+- fixed issue where harvesters didnt have proper hitpoints
+- fixed crash with pet levelling
+- fixed issue where auto resurrect gump wasn't appearing on death
+- further tightened the balance algorithm which had some inconsistencies when one side won too often.  the multiplier will now be much less intense, making the transition from good to evil or vice versa smoother
+- fixed instance where breeding baby didn't have a father and crashed the server
+- Story items is now live! You should be able to click on your character now and see "mark item".  use that to create a new story.  once in the gump, select an item (top middle icon) and sound if you want a sound to play when players come near.  write your story, choose flavor art (i will be fixing this soon), and close gump.  you should see an item in your pack.  double click to place in the world
+- fixeed an issue where 100 powerscrolls were being created
+- Fixed some algo and math issues with the balance calculations when values were over a certain amount - balance will now be more "balanced" in how it reacts to crazy players doing too many champ spawns.
+- Champ spawn mobs will now count for half of the normal effect on the balance. reduced a mobs balance value by 50% overall
+- Crafters can now contribute to the balance!  In order to contribute, crafters need to pledge first with the time lord.  once pledged, any gold made in shoppes (and wirhtdrawn) will have an effect on the balance, based on the crafter's pledge
+- Crafter golems now take 3 control slots
+- You can now trade in balance influence for new balance spikes at the time lord, by saying "i want another spike" they cost 2500 influence
+- increased the drop rate of spikes, and fixed issue where spikes could be destroyed easily (hopefully!)
+- As a reminder, spikes allow you to resurrect in a dungeon if it's charged.   also, i am making it so only persons who pledged can attack a spike
+- i have revised sotry items now which will allow you to write book-length stories when selecting "mark item" now you can write a full book length story
+- Sailor / adventurer quests (from bulletin boards) will now give good balance influence, and have a chance to be rewarded with a high end item
+- luck cap increased to 4k from 2k for gear
+- Major vote on trello:  control slots will no longer reduce based on the tame's level.  this feature will be removed due to majority vote
+- bank will now sell copper and silver.  note that due to limitations, copper will be 1 gold each, and silver will be 2 gold each.  i know the rates are very much higher than what banker trades it for, but there is always the possibility to purchased / trade from players as well.
+- Fixed issue with house teleporters.  restricted players will no longer have the curse be applied to them.  note that there is a chance of curse if the destination is over 50 tiles away (they are house teleporters meant to be used within a house)
+- Major New addition to the Server today!  Thanks to @Qarinah , we now have a full legacy system for the soulbound playstyle!  Quite a bit of work went into this one... playing soulbound now allows you to grow your character's strength and powers over time, so that every incarnation of your SB char can become more and more powerful.  Ultimately, a SB char will not require any items to be as powerful as a regular character.  This is live on the server.
+- the bard system has been completely redesigned as it was broken in more ways than none before (effects could stack to make you invincible, etc)
+- Gauntlet challenges have now been reworked.  they should be more difficult now, feedback welcomed, try them out today!  I also added a new gauntlet challenge: elementals
+- Soulbound:  A player reset template system has been implemented to provide players with a more purposeful resurrection, instead of being completely random.  This includes resetting characters back to 3x 75 skills instead of 2 x 50 skills to assist with being able to "jump back into it".   They will also be provided useful items for their template, such as a bag of reagents, some scrolls and a spellbook for a mage - etc.  There are 10 templates you can receive, and each one has been designed thoughtfully for grouping
+- Bandage self healing timer is now minimum 4 seconds, max 9 seconds, depending on dexterity of the player.
+- Using the vet skill with bandages on a pet will now vary depending on the players dexterity (was fixed 2 seconds before, now varies from 1 second to 5 seconds).
+- Hitpoint / Mana / Stamina bonuses are now affected by diminishing returns, with a max of +100.  In other words, if you have +100 bonus hitpoints on your items, you will not get +100 hits (you will get closer to +70).  Also, a player with +300 hitpoint bonus will get very close to the +100 max.  This allows for more flexibility with stat bonuses from items and is a better alternative to just putting a +100 hardcap (and everything above that wouldn't count).  You can now stack as much of a bonus to the stats as you want on your suit in order to get closer to the 100 max.
+- Hopefully fixed a crash issue where a player is on a boat (related to ambient sounds).
+- Increased Gold drops for all mobs (change applied to mobs on use of resetmobs command)
+- Fixed null crash issue where someone breeding a pet that is stabled would crash server.
+- Reduced area damage area from 10 tiles to 7 tiles, and added a 33% chance that a mob won't be hit by the area attack.
+- Mobs' damage dealt (non humans) will now take into account their strength and their wreslting skill (only took into account their strength before).
+- I increased the armor resist bonus for armor crafted with colored materials by 3x.  meaning A valorite plate armor piece will now have much more resists than before.  This should give more incentive to enhance armor with special materials.
+- Npc thiefs and other nefarious npc rogues will no longer be able to steal a SoulBound's Phylactery.
+- fixed issue where gauntlet mobs were not spawning in the correct region
+- fixed aos enhancement deeds where it was possible for self repair +3-+12
+- Life/mana/stam leech has now been tweaked.  area attacks made this very OP.  Leech percentages have been reduced to 15% of hit
+- Karma hidden traps will now bring karma to 0 for any player who is pledged to either good or evil with the timelord otherwise will still warp the karma as per usual
+- Im changing how soulbound works slightly:  we had started by adding a flag to all items making them "normal only" items, which souldbound couldn't wear.  The idea is to ensure that you could not simply give a +200HP/DEX/INT item to a soulbound character.  Soulbound playstyle is meant to be a hardcore playstyle.  I've opted to remove this flag completely.  Now, all soulbound characters can freely wear any item they want (no more restriction), HOWEVER, item attributes and bonuses will not apply to them.  This will be a work in progress as some tweaks/bugs are likely to prop up.
+- Dungeon pedestals are also going to change dramatically over the next few days - we're adding a puzzle element for a player to get the prize.  more to come on this soon
+- Additionally, the Gauntlet gold reward will now scale with the gauntlet level the player completed.  higher levels means higher rewards (was 5k on completion before regardless of level).  The gold cost will also scale with the level as well, starting at 1k and going up from there.  More risk, more reward.
+- Any houses which have not been refreshed within 60 days will be made public.  All secured containers will remain secured and the player won't lose anything - however other players will be able to enter the home and use any addons and look around.
+- Armor resistances were changed today to make it more difficult to reach 70's on all resists.  each point of resist gets put through a diminishing returns algorythm.  this opens up late game options 
+- DIminishing returns for resistances, AND a full revamp of colored material bonuses are live on server for feedback and testing
+- as a quality of life change, and due to overwhelming support, ive changed pack aninals max carry weight to 2400, max weight for player backpack to 800, and max items in a players backpack to 600
+- Melee damage has now been moved to the diminishing returns system.  What this means:  NO MORE DAMAGE INCREASE CAP!  Yep, you can have 1000% damage increase on your suit now.  The algo now increases damage dealt by diminishing returns (meaning anything over 400% will give very little difference, but its still something you can do). the system is much better this way, as it includes anything that increases melee damage (enemy of one, etc etc).  what happened before:  people were able to stack different damage modifying things together and do 250+HP hits.  this will now be much harder to do (but still doable) so players can now stack as much damage increase as they can, opening more options for late game players
+- Applied same as above to spell damage - no more spell damage increase cap
+- Added a new feature today which will enable offline players to learn skills, and players who want to accelerate skillgain to learn up to 80 skill:  When a player logs out, a clone npc will be created which will roam the lands when the player is offline (if their stats are over 150).  The clone will be able to teach any player up to 80 of any skill the offline player has GM'd.  The cost will be 300gp per 0.1 of skill, and HALF the amount paid for skill training will be dropped into the offline player's bank. this will enable offline players to earn passive gold from skills they have gm'd
+- chaging it so bringing in heads to town guards will now award fame (every little bit helps for a SB).
+- on resurrect, a player's hunger/thirst, HP/mana and stam will be 50% of max - didn't make sense to have a player resurrect fully fed and healed up
+
+March 27 2021
+- Fixed a major issue with taming values around the world. all mobs had incorrect taming vlaues and insane stats as some code was reverted back in december. All taming vlaues for mobs has been fixed, and animals are much closer to what they should be now. elite aninals are still possible, but they won't be as crazy as before
+- who here is tired of having to tame a gazillion animals to train taming? Well, i finally found a solution! Tamers will now be able to gain taming skill by levelling their pets! This will be a simple system: when a pet goes from one level to the next, the tamer will receive a taming "check" depending on the level of the pet. for example: if a tamer raises a mammoth from level 9 to level 10, it will be the same as having tamed 10 mammoths (there will be 10 checks of taming a mammoth). this should vastly improve skillgain experience, and encourage players to focus on one pet, instead of this dumb OSI system we have now. Theoretically, a tamer can now gm taming with just a few animals (bringing them up to level 50 means the quivalent of taming 50 of that pet). Just to explain the math for training pets and taming gains: everytime you pet goes up a level, it's the equivalent of taming a number of mobs equal to the level. So if you train a pet from lvl 1 to 10, it's the equivalent of taming 55 of that mob. If you can train a pet to lvl 30, it's the equivalent of taming 465 of that mob
+- new recipes added to alchemy (including transmutations!) and inscription.
+- to make it less about macroing and more about playing, skillgains in dungeons now have been dramatically increased. this only applies to dungeons, and hopefully no one exploits this by fidning a way to macro in a dungeon without any risk. this is meant for players actually playing the game so they don't have to rely on macroing in a house just to gain skill. skillgain bonus will range from 0 to 100% bonus, based on dungeon difficulty and type of skil
+- changes to how harvesters work, including copper will now make harvesters run 50% longer (make harvesters more efficient)
+- Persons pledged to good will no longer be able to steal from shopkeeper's coffers, and steal from positive karma mobs
+- notice to all, timers were very slow to respawn mobs in dungeons (could take a hole hour before), and most mobs were just one mob here and there. I iwll be making changes to completely randomize spawn times (from 15seconds to 30 minutes) for dungeons, and will be making the amount of mon spawned in dungeon vary from 1 to 1-4. dungeons will now be much trickier and should be more challenging
+- coded in a fix where bandage speed was not displaying properly in info gump
+- The random encounter engine spawning the reds and blues was added over a year ago and a placeholder file was used for the spawns and encounters. I'll be adding a few more encounters over the next few days, based on map and land... so don't be surprised if you encounter a group of blues fighting a group of reds, guards patrolling sosaria, praetor patrolling darkmoor, lizardmen hunting parties in serpent isles, etx
+- weed elementals now have a chance of dropping pipeweed seeds
+- A new invasion system has been added to the server!! This system is 100% automated, and when /if it happens is completely random (it should happen every 60 days or so). The only hint i am giving is that the invasion has to do with infected, and the town crier will let you know one day if he has news of infected. IF he does, that means the invasion has begun, and it will ramp up gradually if no one pushes it back you can ask the town crier about "infected" to see if there are any and where they are. There is a minor boss who is spreading the infection (kill it to help fight the invasion!) and a major boss behind the entire event
+- reducing the sound made by story items by 50%, this was annoying some players
+- Soulforce values required to update soulbound vault has been reduced dramatically. its now easier to play soulbound
+- Next restart, you will not be able to bribe for kills to be removed. Say "bribe", "kills" or "murders" to Xardock in his castle. 10k per kill
+- magic hammer crash has been fixed, effective next restart
+- item limit in backpacks has beenn lowered to 250 max items... after some tests (thanks @Razorspined ), too many items in packs was found to be the source of the playerdeath/corpse loot lag. the more items, the longer the lag
+- the Auto res gump will now take 30 seconds to appear, and autores will only be usable every hour. this is to prevent players under 125 stats to take advantage of the feature.
+- Players will now be able to train from clones (offline version of players) even if they are red.
+- stuck bug in underworld fixed
+- animal brokers will now award fame for exceptional pets sold to him
+- mages will now no longer maxheal before dying automatically. there will be a max of 250hp healed. this was an issue where mobs with large amounts of health were insta-healing right before dying.
+- honorae and praetors will now check if their assailant is hidden when doing their life drain
+- Animals will no longer spawn with gold (bears, birds, elephants, jaguars, etc)
+- fixed a bug where a player would automatically mount after exiting a nomount region when under transformation spell
+- Breeding: babies will BEGIN with the stats of either parent. so if you train both parents with high resists or str, the baby will be born with the same resists. this allows for much more complex and elite animals to be bred as the baby will start with enhanced stats. over multiple generations this can mean extremely powerful pets. this also applies to resists
+- changed how the animal broker prices pets who have a level grater than 1 (trained pets). this will make it much more profitable to train pets as a means to make gold.. revised this further considering the amount of work needed to train a pet... @lvl 5, pet is worth 4x base price, @lvl10, 7x, @ lvl 30, 18x, @ lvl 50, 27x. the idea is to make untrained pets worth a bit less, but training them makes them worth much more than untrained
+- red murderers have now taken to moving about the lands in packs of 2 to 6! They are now a force to be reckoned with!
+- Guards have now been ordered by their royal highnesses to collect any gold of foes they take down to be used towards the royal treasury
+- increased gold drops for champspawn champs
+- made changes to some championspawns difficulty
+- made changes to delay for certain mage mobs
+- fixed exploit where someone could use the moongate gump even when not near a moongate
+- faixed issue where wraith form caused spawn mobs to spawn
+- did some general improvements to certain magery mobs (AI).
+- anyone will be able to mount cu sidhes. however, they will now lose loyalty (get hungry) when healing
+- tombstones will now show how long soulbound characters lived for
+- barding difficulty has been completely revamped this is now dynamic and based on the mobs power and fame
+- fixed issue where magic scissors would crash server if the person did not target an item (e.g. targetting the ground or such)
+- changed provocation so that you will get additional "checks" against the skill (chances to gain) whenever a provoked creature kills another. the fame of the creature that dies will determine how many checks are made. e.g. if you provoke a creature to another, and the other dies, you can get up to 10x attempts to gain skill. this will help gaining the skill whle playing the game. and speed up gains while playing
+- you can now gain poisoning skill by drinking poison above your level
+- herding will now provide additional bonus to a pet's earnt exp for levelling up to 25% at 125 skill
+- fixed issue where travel penalty/death penalty were not applied correctly
+- fixed blackrock gate issue, will now work
+- fixed issue with brave adventurers bulletin board where reward is 0 - will now default to 1, allowing player to cancel quest by dropping 1 gp on the board
+- fixed issues with doom gauntlet (made doom vendor invulnerable)
+- you can no longer drop tombstones in bones - if they are in the way, please take some time to move them to the side into a cemetery area
+- a certain invasion mob will now have a chance of dropping special widow morphing armor when killed
+- added some lore, written by players
+- Legendary items will now be able to go to level 200.
+- Shoppes will now be usable by players with kills (reds)
+- Shoppes will now give you MUCH MORE chances to gain skill, based on new orders filled. When an order is filled, the system will give you a skillcheck (chance of gain) based on the difficulty of the order. min difficulty will do 1 skillcheck, max difficulty will do 12 skillchecks (per order). this should really help players gain crafting skills by actually crafting instead of simply macroing.. I am also okay increasing the frequency of checks even more if its still very slow. FYI: was 2 skillchecks per order before (irrespective of difficulty)
+- Finally found, with some sleuthing around, the reason for the bugged hellhounds (thanks to @Sygun for his help). Putting out a fix for this next restart as it affected all canines
+- coming out of the hellhound fix, ive noticed that many mobs do not have the correct skills based on their AI (for example, a mage AI mob might not have magery skill). will be fixing this, which will make mobs more efficient in dispatching helpless adventurers
+- double shot will now be usable while not mounted
+- Blue guards will now no longer try to resurrect reds/killers or evil characters
+- Hunger/thirst will now no longer decrease when dead
+- Children will no longer follow ghosts
+- lowered breath damage for some of the legacy mobs who had insane stats (breath damage would one-hit kill at 200+hit). breath damage will now scale with diminishing returns with a max of 200hp (pre-resists)
+- made some changes to champs in chamspawns, powerscroll drops will now no longer de dependent on region or area. instead, if a guard hits a champ, the champ will have its powerscroll drops reduced
+- I did a deep dive today and found that Odyssey had the murder count timer set at 40 hours of game time (!!!). I am reducing this to 8 hours. Short term murder counts reduced from 8 hours to 3 hours
+- Turning red will not only happen when you accumulate 2 kills
+- Guide to adventure edited and fixed to show no skill limit
+- Tweaks to kills and murders: guards will not attack if you have 1 murder. they will attack if you have 2. reds will not attack if you have 2 or more, town heralds won't attack if you have 1
+- Infected have been tweaked - they no longer freeze as often/as long, but now have a few other tricks up their sleeves
+- The invasion is now part of the world, and i thought i would put some info about it here. the invasion has 3 stages, the entire thing is fully automated (gms need do nothing). there is something spreading the invasion around the lands. invasion stages can be reduced by killing the spreader, or killing mass amounts of infected. the type of mobs will give a hint where you can find the invasion boss. killing the invasion boss completely stops the invasion (until it starts again in a few months).. Rewards: a special set of morphing armor may spawn that allows your vanquished foes to rise again and fight for you. The boss is the only way to get the final piece of the armor
+- soulbound starting armor (when a new soulbound template is created) will have basic resists, hopefully negating the need to go out and purchase or obtain a new set of armor. Each template (bard, warrior, ninja, etc) will have its own set of resists.
+- Applying nerf hammer to breath damage
+- coded in a fix for dungeon puzzle boxes: you should now be able to steal them with the stealing skill if your skill is over 85
+- opitimizations made to corpse creation
+- fixed crash where npc/basecreature tried to enter skullgate
+- added a book near the balance pillar in the bank explaining a bit about the balance mechanics
+- mammoths now have a small chance to anger on tame (10%)
+- fixed bug where grey souldbound would still be grey on resurrect
+- made some tweaks to SB templates... many only had 1 skill, no armor, etc.. also SB chars didn't respawn with full thirst/hunger
+- soulbound will not have to spend 3-5 minutes in ghost form before being able to resurrect into a new body
+- fixed issue with stabled pets and soulbounds, where mounts would appear in the next incarnation from the last
+- Illusionist stones in lodor changed from 500gp to 5000 gp because: goldsink
+- Any homes placed for more than 24 hours will now have a chance of losing 10% of the cost of the home on demolish/relinquishing of the home, smaller chance of a 5% loss, smaller chance of a 5% GAIN, and even smaller chance of a 10% GAIN. this will make selling a home a bit more random, and allow for goldsink. this wont affect player to player transactions
+- Fixed a major bug with the tamer vendor in the glade: all mobs sold defaulted at 29.1 control skill required, which is an obvious bug for mobs like dragons and Hyrius. After some deliberation, the following changes were made:. glade tame vendor will now sell creatures with HALF the control skill required. If a creature would normally have 100 control required, the vendor will sell the creature with 50 control. Because of this, the prices have been adjusted to reflect this. all tames previously sold by the glad will retain their 29.1 control required. you will also require 60 minimum taming/lore to buy certain mobs from the tamer vendor
+- changed the max attributes you can train a pet to (more resists possible, more hits, etc). increased the gains possible from training a pet when it goes up a level. (is now 1-3 times the pet level - so a pet going to level 12 could mean up to 36 checks of the skill ). actually, just upped this to 1-4 times... training a pet should really help gain skill now, especially levels 10+
+- harpoons will now require ingots instead of boards to craft
+- Cusidhes added to the spawn in darkmoor
+- Pet control skill now has a chance to lower when a pet is trained up a level. so its now possible for a trained pet to have a much lower minimum skill required. The more a pet is trained, the more docile it becomes.
+- Shards of the Balance! These shards can be obtained from the time lord for 5000 balance influence, and will allow the holder to drop a portal which will summon forces from his side of the balance to help fight foes, or keep an area secure. The portals will be weak at first, but grow in power with time the longer they are placed. The longer they are placed, the harder they will be to destroy. This will solidify PvM area control mechanics. they can be placed anywhere, and destroyed by players who have pledged to the opposing side of the balance.. restricted players are not pledged, and therefore cannot destroy a portal. however they can weaken it. Unrestricted players who have pledged may destroy portals, and receive between 1000-5000 balance points for destroying an opposing portal
+- since portals were briefly tried, many questions asked and feedback given. I've made some important changes to the portals: 1. only players or their tames or their summons will be able to attack the portal itself. 2. non pledged players/tames will only make 10% damage to the portal itself. 3. if a non pledged player is still able to bring the portal to 0 hits, the portal will simply reset to its basic strength. 4. is a non pledged player does (3), the portal will not respawn a new mob for a few hours
+- you can now ask the timelord "buy" to see what he has to trade
+- the auto-res gump will now only show 35 seconds after death to allow for res-orbs
+- a pet's breath damage will now only affect its master based on loyalty. low loyalty pet means breath will damage you more, high loyalty pet, breath will only rarely have a chance to hit you. applied this to other pets controled by the owner as well
+- wooden armor fixed, thanks @GreenLoaf the Smoking
+- corpses from players will not be lootable by other players for 10 minutes after death
+- added new system which will allow players to catch thiefs. Any player who steals an item from another player will have an internal flag set, ANY player can then double click on the thief to "catch" him. a player who catches a thief will see the entire thief's backpack for 3-5 seconds and will be able to take anything from the thiefs pack. Once the 3-5 seconds runs out, the thief will no longer be "catchable". IF a thief does not wish to be caught, he can escape to a thief vendor in the thieves guild and "tithe". doing so will reset the internal flag.. thiefs can steal anything from another player's pack. this mechanic however will allow victims to catch the thief and get their items back without the need for pvp. a skilled thief should therefore try to stay in the shadows, and certainly not get caught, as the consequences can be dire!. Just so everyone knows, when a player is flagged from having stolen an item, ANYONE can catch the thief afterwards, until the thief resets the flag thiefs looking for help to erase their missdeeds with the thief guildmaster will only be able to do so once every 24 hours
+- just fixed an issue with the rate of return on the balance and investment bag, the math favored the good bags most of the time due to a small error in one of the equations. rates of returns will now be more accurate and represent returns based on the change in the balance
+- fixed issue where champion couldn't challenge another champion via glove duel
+- fixed balance points being issued incorrectly when destroying a portal
+- In the spirit of Easter - the [Tame] vendor will be retailing a new selection of eggs! There are currently 5 types of egg and each one contains a mystery pet including a few very rare pets. Eggs are difficult to hatch, so you will have to seek out lost wisdom and strange and powerful artifacts to hatch them. Naturally, you will need a vet to help with the delivery of your new baby and these services don't come cheap - but with enough veterinary skill you can help out with the birth and receive up to 50% of the vet costs back. The pets come bonded and have reduced control costs, but if you do hatch something beyond your control skill then fear not, they will still follow you so you can hitch/stable them or sell them to the broker/another player. If you have any suggestions for more eggs/pets, or encounter any issues - please let me know.
+- fixed animal broker so that him dying wont crash the server (gopefully)
+- gave all vendors some basic self defence skills
+- ive made some changes to the code in certain system in the server to see if any of it helps with lag, etc. removed dumb captcha, removed useless code in the core .exe, removed instance corpses code (we don't have any of that)
+- golem manual fix, made it so arcane gems add the correct amount
+- Pets that are grey/attacking a player should no longer be attacking player once tamed. added an algo to check and make sure barding provoke ends when its supposed to. lowered the loyalty penalty for a pet not listening to a master from 5 to 3. added an algo to check if a tamed pet is attacking its master
+- lowering the loyalty loss for pets who can heal themselves (less loyalty loss now)
+- Put in a bandage patch for a mysterious issue where pets would go grey for no apparent reason
+- Hopefully fixed dungeon pedestals where players used stealing skill on them (players with over 85 stealing should be able to steal the pedestals instead of doing the puzzle)
+- Tames' control slots will be dynamic, based on the creature stats: up to now, controlslot requirements have been set by the creatures' script, which is a completely arbitrary value (someone just went "uh.. i think this creature should be this many control slots, because no reason!"). This made sense in some cases, and no sense in others. going forward, control slot requirement will be based on the creatures' stats - meaning low power tames will all be 1 control slot, and really powerful tames will be up to 6 control slots. this way, its possible that a regular tame might be 2 control slots, but an elite version of that mob might be 3 control slots.. Bottom line: low power Thames will be low control slots: powerful pets will be higher control slots. Example: nightmare 1slot, paragon nightmare 3 slots
+- unrestricted players: penalty for death (skill) reduced from a range of .1 - 1.0 to a range of 0.1 - 0.6. this means less loss on death
+- fixed a bug with moving crates that allowed you to use them when not in a home
+
+June 7 2021
+- magic hammer crash has been fixed
+- fixed issue where portals were giving too many balance points when destroyed
+- increasing stam/hits/mana for a pet on levelling will now increase the stat by 1% instead of 2 points. babies that are bred will now have a 75% chance of having a stat from either parent instead of 50%
+- pet slots algo adjusted to make lower fame pets lower slots
+- Fixed issue with gravedigger not finding corpse
+- fixed an issue with travel penalty not being in the right range, also added hover over info for house teleporters (they are only meant to be used within a house unless you are champion)
+- when hitching a pet on a hitching post, the post will no longer be movable until the pet is released
+- taming bods have been re-adjusted to reflect the taming difficulty of the pet.
+- fixed issue where a player could learn up to 80 skill from a clone when he dropped less than 300gp (300 gp is the minimum to learn from them)
+- made some tweaks to advanced magery AI for mobs/reds/blues etc
+- paragon deeds should no longer unbond a pet
+- fixed pet trainer whips (issue with code deleted them on use).  these are obtained from animal bods and can train a pets skills and stats.  they have a 10% chance of breaking on use.
+- Redid taming bods gold algorythm - the gold amount will be much higher now, and correspond to the animal broker's price (times the number of mobs) plus a 15-35% premium.  so it pays more to do bods than sell to animal broker
+- fixed bug with levelable items and experience showing
+- Quivers can now hold Mage Eye used by staves and scepters
+- tweaked costs and max values for guild enhance tools
+- a number of mobs in darkmoor can now be tamed (once grandfathered mobs are killed and they respawn)
+- fixed a bug with guild enhancement tools where it reset certain values of the item it was enhancing incorrectly
+- Made 15 types of snakes tamable!
+- New "vials of concentrated virii" have been added to infected mobs as a possible drop (based on the type of infected mob).  Can also be dropped by concubines and widow (guaranteed one from a widow).  These vials will deal a ton of damage to non-infected mobs and turn them into infected!  these are very powerful.  Note: they won't work in championspawns. warning... whatever you infect will likely turn on you!
+- added bags of reagents and necroreagents in the mage/necromancer store inventory
+- tweaked the soulbound template for mages/necromancers... they didn't start with anything but a robe or hat so didn't start with any resists
+- changed vendor algorythms to better take into account the balance.. neutral vendors will now change pricing based on the player's karma. neg karma vendors will change based on how evil balance is. pos karma vendors will change based on how good balance is
+- Updated the invasion!  Stage 3 now has a very dangerous boss spawn in random towns around the world.  don't let the invasion get to this stage unless you're ready for a fight!
+- Dark father and widow morph armors were underpowered as they were made before the marginal return changes.  revamped both the widow and dark father sets (minotaur to come later).  they have better stats and resists now
+- Made some major changes to the invasion routine... the invasion is automatic (no GM needed) so it runs a routine every interval... ive changed how this works so stage 1 will run every 24 hours, stage 2 will run every  6-7 hours, and stage 3 every 2-4 hours
+- infected were not dropping any of the special gear they should have been dropping... infected can now drop special armor
+- fixed issue where killing invasion general didn't decrease invasion stage if killed by a pet
+- MAjor update!  A new area has been created for soulbound only.  This area will grant very special benefits for any soulbound - 0-GM lockpick boxes, all types of training, cheap reg bags, arrows and bolts, and even a training elemental that doesn't hit back for training.  this area is only accessible to soulbound and any soulbound in the area will gain 300% fast skillgian
+- Further change:  you have been able to get all the small bods for a large BOD simply by clicking the lbod and slecting the lbod itself.  This feature is really nice so its staying, but it will now have a cost.  the cost will depend on the amount of the items, whether it is exceptional, and the material type.  Note that there's no gump to confirm cost at this time, so your bank will simply be charged the cost.  The cost will be anywhere from 100gp (10 n ormal iron/cloth) to 450,000 gold (20 exceptional valorite/barbed)
+- Now Live! Mockobos are spawning the in the lands of UA - Fully tamable and ridable. Each colour has its own location and determines the damage type and resistances of the Mockobo. If you think you are a taming master - one of these could be your Final Fantasy!
+- fixed crash issue with metrial liquifier
+- fixed spawning issue is the widow's lament (mobs should spawn again now)
+- changed the loyalty loss for pets healing themselves from 34% to 15%
+- because untamed creatures can be elite, with crazy stats and very powerful, ive changed the anger on tame feature to be dynamic.  this way any creatures with a certain amount of power will have a chance to anger when you fail a taming attempt.. for example, a weak bear will not anger on tame, but an elite bear will have a chance to anger on failed taming atemptthis will make elite creatures a bit more of a challenge to tame
+- legendary artefacts will only have a 5% chance of being blessed (existing items should be grandfathered). 
+- Fixed issue where soulbound player would be frozen while in ghost form
+- fixed issue where linked gates could be used to circumvent doom gauntlet quest
+- Hopefully fixed an issue where unlooted corpses would give you an "the owner might come back message"  even if they were there for more than 10 mins
+- because of exploiting happening, linkedgates will no longer be usable in public regions (bank/inn/etc) select regions (skara etc) and dungeons
+- Added "lastwords" recording to tombstones.  tombstones will show the player's last spoken words
+- Veterinarians will now be able to "fetch" or "find" your pets for 1k gold.  just ask the vet to "fetch" or "find"
+- gave red pk's a few minor AI tweaks to make them more ... interesting.  Be warned... some red pk's have geared up, and you will now be able to find dreadlords roaming the lands... be very affraid
+- the tombstones will now record the player's last memorable deed!  You know the things the town heralds say?  They can show on your grave now!  Can you collect graves that say rare things (like unlocking the runes of virtue, or killing a rare mob?).  Few more improvements to Red pk AI made.  Im trying to give them more situational awareness.  Also, I will be making them move slower if they are dismounted.  didnt make sense that they moved same speed mounted or unmounted
+- fixed issue where timelord wouldn't sell shards or spikes to players pledged for good
+- clues monster guantlet was disabled for some reason, re-enabled it
+- Major update:  REVISED Champs for champ spawns!  Completely redone (and much harder) rikktor, mephitis, barracoon and neira
+- tweaked loot for mobs and how much/quality of the loot goes based on the mobs fame
+- made it so mobs will get better quality loot compared to before the change
+- Harvester repair kits can now be used to move a harvester or a spike
+- for balance, lowered red spawn in sosaria, increased blues spawn in sosaria, removed dread lords from spawning in sosaria
+- homes in sarth are being transitioned to rentals
+- fixed wood oils not working on wooden item
+- Krystal ammo for Bowcaster weapons etc added as a quiver-able resource. Quivers now accept Arrows, Bolts, Mage Eye and Krystal. Mage Eye and Krystal will display as "arrows" on the tool tip as there aren't clilocs for them but should function fine regardless
+
+
+June 19
+- revamped the necromancy AI.  they should now be much more responsive to what is happening around them and choose their spells more carefully (instead of just randmomly)
+- applied a fix for a crash caused by paralyzing webs
+- harpoon rope quivers added to random drops, from fisherman and artefact vendor
+- Completely new New player creation system added!  Full scenes, better explanation of the game modes, and really (i think) immersive theater play to top it off
+- Ghosts will be able to walk over tombstones next restart
+- Made taxidermy skulls from dragons and wyrms rarer.  will be much harder to get those really nice trophy heads now
+- interior decorator will now be able to raise items much higher than before
+- Pirate ship and Galleon addon deeds added to the SOS loot tables!
+- viking boat addons also added to SOS loot tables
+- Finally!  Harvester device kits are coming into the game!  The new device kit allows you to build any of the lumber/wood/metal harvesters.  The quality of the materials you use to build it determines what quality harvester you get - note:  you can now get perfect harvesters with this device kit! they will be sold for 1k from tinker shopkeeps.
+
+
+Sept 3rd
+- I have updated the music for the game.  i know most people don't play with the music on, which is understandable.  I am releasing a new client patch (below).  download the file if you want to update your music.  you need to delete the c:\ultima-advnetures\classicuo\music\digitat directory and replace it with the one in the archive.  Once done, the new music will play depending on the various things you are doing.  this is very much a work in progress
+- Healers will now be able to resurrect squires
+- Removed restriction for soulbound not to be able to access doors/houses that aren't public
+- Made it so an owner/friend/co-owner can use items and access items on the steps of a house even if not stnading in a house (annoying bug... hopefully its fixed)
+- Pushed an attempted fix for story items where spaces appeared randomly in the text.  they should hopefully display properly now
+- Hear Ye, Hear ye!!  Hepatitis the bard and his troop of merry actors have set up a play in the tavern's stage!  Come one come all to see the play!  To see the play, just come near the front of the stage. sit on one of the bench... should start within 30 seconds
+- Pushed a fix where soulbound characters would be frozen on an attempted resurrection attempt (next restart)
+- in an attempt to make the lottery a bit more enticing, ive revamped the math for the winnings.  Draws will now be between 500,000 to 5,000,000 + tickets sold.  Odds of winning will be draw/6000 reduced by 20 to 80%.  So essentially the drawings are much higher, and the odds are roughly equivalent to before
+- tweaked the stat bonuses calculation slightly.   players should see more increase slightly for hits/stam/mana gear
+- @Sygun / Majordomo Jeeves and I have been busy adding scripted plays around the place - new players will be greeted by one when entering brit, players going on a certain tower might see one too, and players might want to listen to Owyn the bard recide the ballad of the moon soon
+- After some great ideas for tombstones discussed in discord, tombstones will not have a 0.5% chance of spawning a roaming undead every 24 hours.  The type of undead will vary based on the number of tombstones present around it.  the more tombstones in the area, the harder the spawned mob will be.  beware!
+- It is now possible to catch children who steal from you.  If you find that a child has stolen something from you, you can go to the child and double click on them.  If they are the thief, you will be able to get your item back.  if they are NOT the thief... you might find that guards dislike adventurers molesting children
+- wall torches were unusable because they randomly reset their direction.  this has been fixed
+- mobs will be able to enter a house plot.  if you want to be protected from mobs in your home, build some walls and a door.  mobs wont be able to open a door if the door is in a house.  This was leading to too many exploits for afk stealing etc.
+- Fixed a bug where selling artefacts to vendors gave you 3-5x the gold
+- fixed some issues with animal broker prices and vendor prices.  tested offline should all work perfectly now
+- Multiple artefacts have been revamped (thanks @Bonjeemon - Illundai - Jasmin ) to make them more relevant and interesting (chaos damage quiver anyone?).  work in progress too so more changes to come.
+- you can now earn some karma by donating gold and items to those poor, lonely children.  children will ahve a VERY rare chance of being a thief straight out.  However, ALL children may turn into thiefs if they ask you for items and you don't give any to them.  Some are much more patient than others.  Giving them something will make them more patient and less likely to be a thief, even if they continue to follow you
+- Increased the skillgian bonus for unrestricted.  Players who play unrestricted will have a 25% boost to their skillgain rate
+- Unrestricted players will also have the ability to hit harder (max cap for damage per hit or spell is higher) and do more damage
+- all bone containers have been changed into bone items, meaning bones and tombstones can now be carried/moved by players.  they still can't be thrown away, but bones may now be dropped on a gravedigger for some karma and to help the balance move towards good.
+- fixed issue with shoppes not starting unless server was restarted (thanks @Porto (Amelia) )
+- Linked gate will not allow travel if a player has not discovered the location beforehand
+(stable gates)
+- Fixed some artifacts that couldn't have tempering powder used on them
+- Adjustments to Shoppes  - failing a job now costs you compensation, delay in getting new jobs increased. 
+- the server will remember who a child steals from after a server restart, so the person who was stolen from can recove any items even after a server restart
+- Looks like there exists a number of bugs which hadn't been found by players before this crowd now... having pets with no control slot requirements, pets with 100+ in resists etc.  Fixing these bugs now.  these are exploits, obviously no pet is meant to have over 100 resists, so if you find any bugs like these please let me know.
+- fixed issue where reds would attack elementals in the basement
+- fixed issue where begging gives fame for soulbound characters
+- Finally fixed major bug where follower count was reduced when logging out with a mounted pet.  throwing large amounts of shame towards players who took advantage of this obvious bug
+- Updates have been made to the available sage artie in the shoes, belts, cloaks and sash items slots, they should now all be comparably relevant,
+- Players pledged for good will no longer be able to steal from players, or positive karma creatures
+With one exception:  A good pledged player will only be able to steal from players pledged to evil
+- fixed a large number of bugs and issues with the new player scenario (should work as intended now!)
+- Pets should now be able to feed themselves from items on the ground!  Want to feed your pets?  Put whatever it is they like on the ground, and have them come close to it.  Need to feed many?  just put a stack of it down.  Its now much easier to feed pets.  They might even feed themselves if whatever they eat is found on the ground naturally.
+- Did a complete revamp of how children receive and react to gifts/donations.  Charity donations will award karma and the children will react to what is given to them (they really like gold/silver and react based on how much is given), and children will now (if they happen to be a thief), give the player a random item from their pack if enough gold was given.  Who knows, you might get a valuable item stolen from another player!
+- It is now possible to drop bones on gravediggers near cemeteries for them to properly dispose of the remains.  This is considered an act of kindness towards the departed and the balance will be affected accordingly.  Note, ive taken some measures to prevent this from being exploited (a player kills himself, drops his bones on gravedigger, kills himself again, rinse and repeat).  Im sure there are ways around my simple code so if this is abused I'll simply remove it from the game.  This is meant to help clean up the world and give a way for good players to affect the balance positively.
+- amending balance spikes so they will resurrect their owner WITHOUT PENALTY when charged.  doing so will deplete the spike
+- Changed how players can get to the lodoria map.  There is now only one way to discover Lodoria.
+- recall and other travel means (gate, etc) will now only work if you have discovered the lands you are trying to go to
+- New characters will now start with 2,500 skillcap.  this means characters can GM 25 skills on creation.  There is also a quest which will increase skillcap to unlimited.
+- it seems there was a bug in dungeons making it so most mobs spawned 3x.  Ive tightened the code and this should be fixed now.  mobs are supposed to have a 95% chance of spawning 1 mob, and 5% chance of being higher.
+- Attempted a fix for the foodtype in the lore gump.  Should show more than "none" now when food type isn't the usual food types
+- A new area was recently created by our very own map wizard @Sygun / Majordomo Jeeves .  Its a monastery for the moon brotherhood and can be accessed by all in lodoria-south gate .
+- fixed town crier who was a little behind the times with his infected intel.  should be up to date next restart
+- fixed an issue where a non movable hitching post would be released and made movable
+- reduced frequency that reds will teleport to the target (was happening too often before... will happen every 6 seconds now, and only if target hasn't run far enough away.  making it easier to run from reds
+- further reduced red pk spawns in sosaria
+- Balance spikes: defences for spikes has been dramatically reduced, from a low of 1 to a max of 5 based on the owner's karma level
+- Destroying a balance spike with balance points will give the balance points to the person who destroyed the spike, AND the balance will be moved by the amount of the spike's charge.  example:  a good player destroys an evil spike with 500 points, the good player will get 500 BP and the balance will be reduced by 500 points
+- red pks are now bardable, and bandage timer increased to 7s from 5s
+- Unrestricted players will now have a chance to detect spikes when within a certain range.  the range is dependent on whether the player has pledged, and the players detect hidden skill.  If a player successfully detects a spike, they will get a message when in range
+- time lord will no longer give free spikes for a new player pledges.  this was abused by players who would simply create alts and pledge to get free spikes
+- MAJOR revamp of the soulbound system, about 20 hours of coding went into the revamp, things should work smoothly now, we even had 2 players do skara as soulbounds, and our very own soulbound masters now.  
+- When a soulbound's vault reaches level 10, he will be considered a soulbound master.  A master soulbound will be able to run at mounted speeds, and will be able to recall freely without any penalty whatsoever.
+- it is now possible to obtain a legendary levelling quiver!  Thanks for the contribution @Porto (Amelia) !
+- thanks to the wonderful assistance of our very own master coder @AgetianMaywind who took a few hours to do a deep dive.  tested killing a player and looting and didn't experience any lag whatsoever.  culprit was a single line of code in container.cs
+- NPC vendor selling lag: Gone.  Player death/looting lag: Gone.  40-50 mobs killed at champ, reduced
+- Red/PK AI tweaked to remove inconsistencies (teleporting through walls, etc)
+- Guards and blue "player" mobs have gotten an AI revamp to bring them on par with red pk's.  small pk's will have a unique explode pot ability while guards will have a unique bola ability, other than that they will be very similar
+- Our very own @AgetianMaywind is hard at work debugging a number of issues in the server code.  One we just found was that the server was cluttered with OVER 400,000 null items, items that weren't in a container or anywhere and just cluttered the game.  Ag created a cleanup routine that we will run daily to clean these items as they show up now.  This will greatly help the responsiveness of the game, lower save time, and maybe even help the lag issue.  400,000 items was HALF OF THE TOTAL ITEMS in the server.... 
+- added routine to move guards back to their posts every now and then as they tend to chase thieves and ne'er dowells far and wide
+- Introducing the book titled "Eternal War", written by our very own @Syn Morion, Worm Legionnaire !  This book will begin spawning on next restart and will explain how the balance affects the world, and how players can affect the balance.  Get your copy today!
+- Annoucing a new book, written by our very own @Stone , first master soulbound of the server.  this book recounts his journey in becoming a master soulbound.  will spawn in dungeon chests.
+- Introducing another excellent work of lore from @Syn Morion, Worm Legionnaire , retelling the accounts of a traveller to the lands of darkmoor!  Find your copy todat in the dungeon chests... "The screams behind me prompted me to look back and by all that is sacred in this world, I wish I hadn't. "
+- Revamped the loot of mobs and dungeon chests.  objective:  less crap, more quality.  Reduced chances of items spawning by half, but increased the intensity of the attributes they spawned with.  this means less items to sort through and chances of higher quality items
+
+Oct 25
+-I have added Ultima Live to the server, enabling the use of more than 6 maps. As of this moment, I have three new maps. Two of them are Darkshard maps, Shattered Lands, and Greyworld. The other is a map I got from and unknown source. If I ever remember I will be able to give them the proper credit. None of the maps are populated or regioned, but you can freely move around on them, mark, and add houses. The [delstatic command does not work at this time.
+
+Nov 4
+-Goldpanning has been implemented and tested. 
+-Changed map35 from Shattered Lands, to map 8 with the new name, The Night Expanse. The Shattered Lands was already part of the first 5 Ultima Adventures maps.
+
+Nov 5
+-Added training weapons and an extra training elemental to the basement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
